@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="but"></p>
+<button onclick="document.getElementById('but').innerHTML = randomValue(0,10)">Click</button>
+<script>
+function randomValue() 
+{
+  return Math.floor(Math.random()*10);
+}
+</script>
+</body>
+</html>
